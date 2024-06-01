@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "Sora";
+  src: url("./fonts/Sora-Bold.ttf");
+}
+
+.container1 {
+  padding: 24px 80px 24px 80px;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  font-family: "Sora";
+}
+
+.navbar-nav {
+  gap: 32px;
+}
+
+.collapse {
+  padding-left: 267px;
+}
+
+.nav-btn {
+  width: 153px;
+  height: 56px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Sora";
+  border-radius: 4px;
+}
+
+.nav-button-all {
+  padding-left: 267px;
+}
+
+.nav-btn:hover {
+  background-color: #404040;
+  transition: 0.5s;
+  border: #404040;
+}
+
+/* Navbar tugadi */
+
+/* section-1 boshlandi  */
+
+.container2 {
+  padding: 60px 80px 0 80px;
+}
+
+.section-1-left-allBox {
+  padding-top: 110px;
+}
+
+.section-1-left-h1 {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 70px;
+  font-family: "Sora";
+  color: black;
+  font-family: "ExtraLight 100";
+  margin: 0;
+}
+#Developer {
+  color: white;
+  text-shadow: -3px -2px 0 #000, 1px -3px 0 #000, -3px 1px 0 #000,
+    1px 3px 0 #000;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Sora";
+}
+
+.section-1-left-span {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Sora";
+}
+
+.section-1-left-p {
+  font-family: Sora;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #71717a;
+  margin: 0;
+}
+
+.section-1-left {
+  width: 580px;
+}
+
+.section-1-left-center {
+  width: 585px;
+  padding-top: 32px;
+}
+
+.section-1-left-bottom {
+  padding-top: 98px;
+  padding-bottom: 38px;
+}
+
+.section-1-left-bottom .Fbook,
+.Social,
+.Tweeter {
+  padding-right: 40px;
+}
+
+.section-1-left-allBox {
+  position: relative;
+}
+
+.section-1-right {
+  position: absolute;
+  left: 535px;
+  bottom: -65px;
+}
+
+/* section-1 tugadi  */
+
+/* section-2 boshlandi  */
+
+.container3 {
+  padding: 0px 80px 0 80px;
+}
+
+.section-2-h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Sora";
+  color: black;
+  font-family: "ExtraLight 100";
+  margin: 0;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.section-2-span {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Sora";
+}
+
+.section-2-top-flexbox-VectorBox {
+  border: 2px solid black;
+  width: 186px;
+  height: 186px;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 37px;
+}
+
+.VectorBox-h5 {
+  font-family: "Sora";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  padding-top: 32px;
+}
+
+.section-2-top-flexbox-ScriptBox {
+  width: 186px;
+  height: 186px;
+  background-color: black;
+  text-align: center;
+  padding-top: 32px;
+  border-radius: 4px;
+}
+
+.ScriptBox-h5 {
+  font-family: "Sora";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  padding-top: 32px;
+}
+
+.section-2-top-flexbox {
+  gap: 107px;
+  padding-bottom: 40px;
+}
+
+.section-2-bottom-flexbox {
+  gap: 107px;
+}

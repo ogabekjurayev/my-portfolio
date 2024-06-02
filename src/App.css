@@ -4,6 +4,8 @@
 }
 
 .container1 {
+  max-width: 1440px;
+  margin: auto;
   padding: 24px 80px 24px 80px;
 }
 
@@ -20,7 +22,7 @@
 }
 
 .collapse {
-  padding-left: 267px;
+  padding-left: 227px;
 }
 
 .nav-btn {
@@ -35,7 +37,7 @@
 }
 
 .nav-button-all {
-  padding-left: 267px;
+  padding-left: 227px;
 }
 
 .nav-btn:hover {
@@ -49,7 +51,10 @@
 /* section-1 boshlandi  */
 
 .container2 {
-  padding: 60px 80px 0 80px;
+  border: 1px solid red;
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 80px 60px 80px;
 }
 
 .section-1-left-allBox {
@@ -102,7 +107,6 @@
 
 .section-1-left-bottom {
   padding-top: 98px;
-  padding-bottom: 38px;
 }
 
 .section-1-left-bottom .Fbook,
@@ -126,7 +130,10 @@
 /* section-2 boshlandi  */
 
 .container3 {
-  padding: 0px 80px 0 80px;
+  border: 1px solid red;
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 80px 60px 80px;
 }
 
 .section-2-h2 {
@@ -138,7 +145,6 @@
   font-family: "ExtraLight 100";
   margin: 0;
   text-align: center;
-  padding-top: 60px;
   padding-bottom: 80px;
 }
 
@@ -192,4 +198,357 @@
 
 .section-2-bottom-flexbox {
   gap: 107px;
+  padding-bottom: 20px;
+}
+
+/* section-2 tugadi  */
+/* section-3 boshlandi  */
+.bg {
+  background-color: #000;
+}
+
+.container4 {
+  border: 1px solid red;
+  max-width: 1440px;
+  padding: 60px 80px;
+  margin: auto;
+}
+
+.section-3-h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Sora";
+  color: white;
+  font-family: "ExtraLight 100";
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-3-span {
+  font-family: "Sora";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+}
+
+.section-3-all {
+  padding: 56px 56px 0 56px;
+}
+
+.section-3-google {
+  border: 1px solid #71717a;
+  border-radius: 10px;
+  width: 1168px;
+  height: 192px;
+  padding: 30px 24px;
+  margin-bottom: 32px;
+}
+
+.section-3-google-top {
+  display: flex;
+  align-items: center;
+}
+
+.section-3-google-top-h3 {
+  font-family: "Sora";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+  color: white;
+  padding-left: 30px;
+}
+
+.section-3-google-top-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #d4d4d8;
+  margin: 0;
+  padding-left: 477px;
+}
+
+.section-3-google-bottom {
+  width: 1100px;
+  padding-top: 28px;
+}
+
+.section-3-google-bottom-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  color: #d4d4d8;
+}
+
+.section-3-Youtube {
+  border: 1px solid #71717a;
+  background: var(--Zinc-800, #27272a);
+  border-radius: 10px;
+  width: 1168px;
+  height: 192px;
+  padding: 30px 24px;
+  margin-bottom: 32px;
+}
+
+.section-3-Youtube-top {
+  display: flex;
+  align-items: center;
+}
+
+.section-3-Youtube-top-h3 {
+  font-family: "Sora";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+  color: white;
+  padding-left: 30px;
+}
+
+.section-3-Youtube-top-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #d4d4d8;
+  margin: 0;
+  padding-left: 520px;
+}
+
+.section-3-Youtube-bottom {
+  width: 1100px;
+  padding-top: 28px;
+}
+
+.section-3-Youtube-bottom-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  color: #d4d4d8;
+}
+
+.section-3-Apple {
+  border: 1px solid #71717a;
+  border-radius: 10px;
+  width: 1165px;
+  height: 192px;
+  padding: 30px 24px;
+  margin-bottom: 32px;
+}
+
+.section-3-Apple-top {
+  display: flex;
+  align-items: center;
+}
+
+.section-3-Apple-top-h3 {
+  font-family: "Sora";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+  color: white;
+  padding-left: 30px;
+}
+
+.section-3-Apple-top-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #d4d4d8;
+  margin: 0;
+  padding-left: 465px;
+}
+
+.section-3-Apple-bottom {
+  width: 1100px;
+  padding-top: 28px;
+}
+
+.section-3-Apple-bottom-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  color: #d4d4d8;
+}
+/* section-3 tugadi  */
+
+/* section-4 boshlandi  */
+
+.container5 {
+  border: 1px solid red;
+  max-width: 1440px;
+  margin: auto;
+  padding: 60px 80px;
+}
+
+.section-4-all {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  gap: 85px;
+}
+
+.section-4-right-h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Sora";
+  color: black;
+  font-family: "ExtraLight 100";
+  margin: 0;
+  padding: 25px 0;
+}
+
+.section-4-right-span {
+  font-family: "Sora";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  color: #000;
+  margin: 0;
+  padding: 25px 0;
+}
+
+.section-4-right-p1,
+.section-4-right-p2,
+.section-4-right-p3 {
+  font-family: "Sora";
+  font-family: "Sora";
+  font-family: "Sora";
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #71717a;
+}
+
+/* section-4 tugadi  */
+/* section-5-boshlandi  */
+
+.container6 {
+  max-width: 1440px;
+  margin: auto;
+  border: 1px solid red;
+  padding: 60px 80px;
+}
+
+.section-5-h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Sora";
+  color: white;
+  font-family: "ExtraLight 100";
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section-5-span {
+  font-family: "Sora";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  color: white;
+  margin: 0;
+}
+
+.section-5-crypto-img {
+  /* border: 1px solid red; */
+  padding: 39px 65px 39px 0;
+}
+
+.section-5-crypto {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.section-5-crypto-right {
+  /* border: 1px solid blue; */
+  width: 580px;
+}
+
+.section-5-crypto-right-h2 {
+  font-family: "Sora";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  color: white;
+  margin: 0;
+  padding-bottom: 28px;
+}
+
+.section-5-crypto-right-h3 {
+  font-family: "Sora";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+  margin: 0;
+  padding-bottom: 28px;
+}
+
+.section-5-crypto-right-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #71717a;
+  padding-bottom: 28px;
+}
+
+.section-5-euphoria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 20px;
+}
+
+.section-5-euphoria-left {
+  /* border: 1px solid blue; */
+  width: 570px;
+}
+
+.section-5-euphoria-left-h2 {
+  font-family: "Sora";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  color: white;
+  margin: 0;
+  padding-bottom: 28px;
+}
+
+.section-5-euphoria-left-h3 {
+  font-family: "Sora";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+  margin: 0;
+  padding-bottom: 28px;
+}
+
+.section-5-euphoria-left-p {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #71717a;
+  padding-bottom: 28px;
 }

@@ -18,6 +18,7 @@ export default function MyTestimonial() {
           <div className="section-6-leftBox-div"></div>
           <h3 className="section-6-leftBox-h3">Evren Shah</h3>
           <p className="section-6-leftBox-p2">Designer</p>
+          <p>wduisadjasudhsau</p>
         </div>
       </div>
     </div>

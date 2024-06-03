@@ -46,12 +46,11 @@
   border: #404040;
 }
 
-/* Navbar tugadi */
+/* Navbar finished */
 
-/* section-1 boshlandi  */
+/* section-1 started  */
 
 .container2 {
-  border: 1px solid red;
   max-width: 1440px;
   margin: auto;
   padding: 60px 80px 60px 80px;
@@ -125,12 +124,11 @@
   bottom: -65px;
 }
 
-/* section-1 tugadi  */
+/* section-1 finished  */
 
-/* section-2 boshlandi  */
+/* section-2 started  */
 
 .container3 {
-  border: 1px solid red;
   max-width: 1440px;
   margin: auto;
   padding: 60px 80px 60px 80px;
@@ -201,14 +199,13 @@
   padding-bottom: 20px;
 }
 
-/* section-2 tugadi  */
-/* section-3 boshlandi  */
+/* section-2 finished  */
+/* section-3 started  */
 .bg {
   background-color: #000;
 }
 
 .container4 {
-  border: 1px solid red;
   max-width: 1440px;
   padding: 60px 80px;
   margin: auto;
@@ -383,12 +380,11 @@
   margin: 0;
   color: #d4d4d8;
 }
-/* section-3 tugadi  */
+/* section-3 finished  */
 
-/* section-4 boshlandi  */
+/* section-4 started  */
 
 .container5 {
-  border: 1px solid red;
   max-width: 1440px;
   margin: auto;
   padding: 60px 80px;
@@ -435,13 +431,12 @@
   color: #71717a;
 }
 
-/* section-4 tugadi  */
-/* section-5-boshlandi  */
+/* section-4 finished  */
+/* section-5-started  */
 
 .container6 {
   max-width: 1440px;
   margin: auto;
-  border: 1px solid red;
   padding: 60px 80px;
 }
 
@@ -553,14 +548,13 @@
   padding-bottom: 28px;
 }
 
-/* section-5 tugadi  */
-/* section-6-boshlandi  */
+/* section-5 finished  */
+/* section-6-started  */
 
 .container-7 {
   max-width: 1440px;
   margin: auto;
   padding: 60px 80px;
-  border: 1px solid red;
 }
 
 .section-6-h2 {

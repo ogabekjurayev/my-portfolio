@@ -15,7 +15,7 @@ export default function Section() {
               <h1 className="section-1-left-h1">
                 Hello I’am{" "}
                 <span className="section-1-left-span">
-                  Jurayev Og'abek. Frontent{" "}
+                  Jurayev Og'a. Frontent{" "}
                 </span>{" "}
                 <span id="Developer">Developer </span> Base In
                 <span className="section-1-left-span">Uzbek.</span>

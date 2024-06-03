@@ -20,6 +20,7 @@ export default function MyTestimonial() {
           <p className="section-6-leftBox-p2">Designer</p>
         </div>
       </div>
+      <h1>Salom </h1>
     </div>
   );
 }

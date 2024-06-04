@@ -7,6 +7,8 @@ import MyExperience from "./Section-3";
 import AboutMe from "./Section-4";
 import MyProjects from "./Section-5";
 import MyTestimonial from "./Section-6";
+import Special from "./Secion-7";
+import Footer from "./Footer";
 function App() {
   return (
     <div>
@@ -17,6 +19,8 @@ function App() {
       <AboutMe />
       <MyProjects />
       <MyTestimonial />
+      <Special />
+      <Footer />
     </div>
   );
 }

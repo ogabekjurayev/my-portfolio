@@ -2,7 +2,7 @@ import React from "react";
 import Crypto from "./imgs/crypto.png";
 import Euphoria from "./imgs/Euphoria.png";
 import Blog from "./imgs/Blog.png";
-import GoIcon from "./GoIcons";
+import GoIcon from "./icons/Downloadicon";
 
 export default function MyProjects() {
   return (

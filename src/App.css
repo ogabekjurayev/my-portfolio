@@ -41,7 +41,7 @@
 }
 
 .nav-btn:hover {
-  background-color: #404040;
+  background-color: #757272;
   transition: 0.5s;
   border: #404040;
 }
@@ -104,24 +104,72 @@
   padding-top: 32px;
 }
 
-.section-1-left-bottom {
-  padding-top: 98px;
-}
-
-.section-1-left-bottom .Fbook,
-.Social,
-.Tweeter {
-  padding-right: 40px;
-}
-
-.section-1-left-allBox {
-  position: relative;
-}
-
 .section-1-right {
+  position: relative;
+  right: 200px;
+  bottom: 20px;
+}
+
+.section-1-right-img {
   position: absolute;
-  left: 535px;
-  bottom: -65px;
+}
+
+.icon1 {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  margin-left: 11px;
+  margin-top: 11px;
+  padding-left: 6px;
+  border-radius: 15px;
+}
+
+.section-1-bottom-icon1 {
+  border: 2px solid black;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+}
+.section-1-bottom-icon1:hover {
+  background-color: #000;
+}
+
+.section-1-bottom-icon2 {
+  border: 2px solid black;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.section-1-bottom-icon2:hover {
+  background-color: #000;
+}
+.section-1-bottom-icon3 {
+  border: 2px solid black;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.section-1-bottom-icon3:hover {
+  background-color: #000;
+}
+
+.section-1-bottom-icon4 {
+  border: 2px solid black;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.section-1-bottom-icon4:hover {
+  background-color: #000;
+}
+
+.section-1-bottom-all {
+  display: flex;
+  gap: 32px;
+  padding-top: 100px;
 }
 
 /* section-1 finished  */
@@ -172,9 +220,10 @@
 }
 
 .section-2-top-flexbox-ScriptBox {
+  border: 2px solid black;
   width: 186px;
   height: 186px;
-  background-color: black;
+
   text-align: center;
   padding-top: 32px;
   border-radius: 4px;
@@ -185,7 +234,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: white;
+  color: black;
   padding-top: 32px;
 }
 
@@ -462,7 +511,6 @@
 }
 
 .section-5-crypto-img {
-  /* border: 1px solid red; */
   padding: 39px 65px 39px 0;
 }
 
@@ -473,7 +521,6 @@
 }
 
 .section-5-crypto-right {
-  /* border: 1px solid blue; */
   width: 580px;
 }
 
@@ -515,7 +562,6 @@
 }
 
 .section-5-euphoria-left {
-  /* border: 1px solid blue; */
   width: 570px;
 }
 
@@ -662,15 +708,16 @@
 
 .section-7-left-input-4 {
   width: 500px;
-  height: 140px;
-  padding: 16px 24px;
+
+  padding-left: 24px;
+  padding-top: 16px;
+  padding-bottom: 100px;
   border-radius: 2px;
   font-family: "Sora";
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: -0.02em;
-  margin-bottom: 20px;
   margin-bottom: 20px;
 }
 
@@ -785,4 +832,8 @@
   text-align: right;
   color: white;
   margin: 0;
+}
+
+.pd {
+  margin-left: 24px;
 }

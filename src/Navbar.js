@@ -1,6 +1,6 @@
 import React from "react";
 import img from "./imgs/Logo (2).png";
-import Downloadicon from "./Downloadicon";
+import Downloadicon from "./icons/Downloadicon";
 
 export default function Navbar() {
   return (

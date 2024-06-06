@@ -1,8 +1,8 @@
 import React from "react";
-import Fbook from "./imgs/Button.jpg";
-import Social from "./imgs/Button (1).jpg";
-import Tweeter from "./imgs/twiter.png";
-import SocilIcon from "./imgs/Button (3).jpg";
+import Facebookicon from "./icons/Facebookicon";
+import Robirt1icon from "./icons/Robirt1icon";
+import Tweeter from "./icons/Tweeter";
+import Robirt2icon from "./icons/Robirt2icon";
 
 export default function Special() {
   return (
@@ -24,17 +24,42 @@ export default function Special() {
             type="text"
             placeholder="Your website (if existis)"
           />
-          <input
+          <textarea
             className="section-7-left-input-4"
             type="text"
             placeholder="How can I help ?"
           />
-          <div className="section-7-left-bottom">
-            <button className="section-7-left-bottom-btn">Get In Touch</button>
-            <img className="section-7-Fbook" src={Fbook} alt="/" />
-            <img className="section-7-Social" src={Social} alt="/" />
-            <img className="section-7-Tweeter" src={Tweeter} alt="/" />
-            <img src={SocilIcon} alt="/" />
+          <div className="section-7-bottom-all d-flex">
+            {" "}
+            <div className="section-7-left-bottom">
+              <button className="section-7-left-bottom-btn">
+                Get In Touch
+              </button>
+            </div>
+            <div className="section-1-bottom-icon1 pd ">
+              <div className="icon1">
+                {" "}
+                <Facebookicon />
+              </div>
+            </div>
+            <div className="section-1-bottom-icon2 pd ">
+              <div className="icon1">
+                {" "}
+                <Robirt1icon />
+              </div>
+            </div>
+            <div className="section-1-bottom-icon3 pd ">
+              <div className="icon1">
+                {" "}
+                <Tweeter />
+              </div>
+            </div>
+            <div className="section-1-bottom-icon4 pd ">
+              <div className="icon1">
+                {" "}
+                <Robirt2icon />
+              </div>
+            </div>
           </div>
         </div>
 

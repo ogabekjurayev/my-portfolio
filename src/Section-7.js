@@ -6,7 +6,7 @@ import Robirt2icon from "./icons/Robirt2icon";
 
 export default function Special() {
   return (
-    <div className="container-8">
+    <div iv className="container-8" id="contactme">
       <div className="section-7-all">
         <div className="section-7-left">
           <input
@@ -32,9 +32,7 @@ export default function Special() {
           <div className="section-7-bottom-all d-flex">
             {" "}
             <div className="section-7-left-bottom">
-              <button className="section-7-left-bottom-btn">
-                Get In Touch
-              </button>
+              <button className="nav-btn">Get In Touch</button>
             </div>
             <div className="section-1-bottom-icon1 pd ">
               <div className="icon1">

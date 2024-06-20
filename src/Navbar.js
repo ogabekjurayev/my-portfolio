@@ -3,6 +3,13 @@ import img from "./imgs/Logo (2).png";
 import Downloadicon from "./icons/Downloadicon";
 
 export default function Navbar() {
+  const onClick = (id) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="container1">
       <nav class="navbar navbar-expand-lg  ">
@@ -12,18 +19,25 @@ export default function Navbar() {
           </a>
           <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link " aria-current="page" href="/">
+              <div
+                class="nav-link"
+                onClick={() => onClick("about-me")}
+                aria-current="page"
+              >
                 About Me
-              </a>
-              <a class="nav-link" href="/">
+              </div>
+
+              <div class="nav-link" onClick={() => onClick("skills")}>
                 Skills
-              </a>
-              <a class="nav-link" href="/">
+              </div>
+
+              <div class="nav-link" onClick={() => onClick("project")}>
                 Project
-              </a>
-              <a class="nav-link" href="/">
+              </div>
+
+              <div class="nav-link" onClick={() => onClick("contactme")}>
                 Contact me
-              </a>
+              </div>
             </div>
             <div className="nav-button-all">
               {" "}

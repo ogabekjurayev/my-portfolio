@@ -6,7 +6,7 @@ import Robirt2icon from "./icons/Robirt2icon";
 
 export default function Special() {
   return (
-    <div iv className="container-8" id="contactme">
+    <div className="container-8" id="contactme">
       <div className="section-7-all">
         <div className="section-7-left">
           <input
@@ -34,29 +34,42 @@ export default function Special() {
             <div className="section-7-left-bottom">
               <button className="nav-btn">Get In Touch</button>
             </div>
-            <div className="section-1-bottom-icon1 pd ">
-              <div className="icon1">
-                {" "}
-                <Facebookicon />
-              </div>
-            </div>
-            <div className="section-1-bottom-icon2 pd ">
-              <div className="icon1">
-                {" "}
-                <Robirt1icon />
-              </div>
-            </div>
-            <div className="section-1-bottom-icon3 pd ">
-              <div className="icon1">
-                {" "}
-                <Tweeter />
-              </div>
-            </div>
-            <div className="section-1-bottom-icon4 pd ">
-              <div className="icon1">
-                {" "}
-                <Robirt2icon />
-              </div>
+            <div className="section-7-boxchala d-flex">
+              <a href="https://www.facebook.com">
+                <div className="section-1-bottom-icon1 pd">
+                  <div className="icon1">
+                    {" "}
+                    <Facebookicon />
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.reddit.com">
+                <div className="section-1-bottom-icon2 pd ">
+                  {" "}
+                  <div className="icon1">
+                    {" "}
+                    <Robirt1icon />
+                  </div>
+                </div>
+              </a>
+              <a href="https://twitter.com">
+                <div className="section-1-bottom-icon3 pd ">
+                  {" "}
+                  <div className="icon1">
+                    {" "}
+                    <Tweeter />
+                  </div>
+                </div>
+              </a>
+              <a href="https://discord.com">
+                <div className="section-1-bottom-icon4 pd ">
+                  {" "}
+                  <div className="icon1">
+                    {" "}
+                    <Robirt2icon />
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function Section() {
   return (
     <div>
       <div className="container2">
-        <div className="section-1 d-flex">
+        <div className="sections d-flex">
           <div className="section-1-left-allBox">
             <div className="section-1-left">
               <h1 className="section-1-left-h1">
@@ -21,6 +21,7 @@ export default function Section() {
                 <span className="section-1-left-span"> Uzbek.</span>
               </h1>
             </div>
+
             <div className="section-1-left-center">
               {" "}
               <p className="section-1-left-p">
@@ -31,33 +32,45 @@ export default function Section() {
                 specimen book.
               </p>
               <div className="section-1-bottom-all">
-                <div className="section-1-bottom-icon1 ">
-                  <div className="icon1">
-                    {" "}
-                    <Facebookicon />
+                <a href="https://www.facebook.com">
+                  <div className="section-1-bottom-icon1 ">
+                    <div className="icon1">
+                      {" "}
+                      <Facebookicon />
+                    </div>
                   </div>
-                </div>
-                <div className="section-1-bottom-icon2 ">
-                  <div className="icon1">
+                </a>
+                <a href="https://www.reddit.com">
+                  <div className="section-1-bottom-icon2 ">
                     {" "}
-                    <Robirt1icon />
+                    <div className="icon1">
+                      {" "}
+                      <Robirt1icon />
+                    </div>
                   </div>
-                </div>
-                <div className="section-1-bottom-icon3 ">
-                  <div className="icon1">
+                </a>
+                <a href="https://twitter.com">
+                  <div className="section-1-bottom-icon3 ">
                     {" "}
-                    <Tweeter />
+                    <div className="icon1">
+                      {" "}
+                      <Tweeter />
+                    </div>
                   </div>
-                </div>
-                <div className="section-1-bottom-icon4 ">
-                  <div className="icon1">
+                </a>
+                <a href="https://discord.com">
+                  <div className="section-1-bottom-icon4 ">
                     {" "}
-                    <Robirt2icon />
+                    <div className="icon1">
+                      {" "}
+                      <Robirt2icon />
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
+
           <div className="section-1-right">
             <img className="section-1-right-img" src={Banner} alt="/" />
           </div>

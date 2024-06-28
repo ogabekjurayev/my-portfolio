@@ -6,7 +6,7 @@ export default function AboutMe() {
     <div className="container5" id="about-me">
       <div className="section-4-all">
         <div className="section-4-left">
-          <img src={Group} alt="/" />
+          <img className="section-4-left-img" src={Group} alt="/" />
         </div>
         <div className="section-4-right">
           <h2 className="section-4-right-h2">

@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="bg">
       <div className="container-9">
         <div className="footer-all">
-          <a class="footer-a" href="/">
+          <a className="footer-a" href="/">
             <img src={imgs} alt="/" />
           </a>
           <div className="footer-right">

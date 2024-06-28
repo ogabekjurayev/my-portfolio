@@ -9,16 +9,16 @@ import SkillsDetail from "./SkillsDetail";
 
 export default function MySkills() {
   const mySkillsArray = [
-    { title: "Git", icon: Vector },
-    { title: "Javascript", icon: IconJs },
-    { title: "Sass/Scss", icon: IconSass },
-    { title: "Nest.Js", icon: IconNextjs },
-    { title: "Storybook", icon: IconStory },
-    { title: "Nest.Js", icon: IconNextjs },
-    { title: "Git", icon: Vector },
-    { title: "Storybook", icon: IconStory },
-    { title: "Socket.io", icon: IconSocket },
-    { title: "Sass/Scss", icon: IconSass },
+    { id: 1, title: "Git", icon: Vector },
+    { id: 2, title: "Javascript", icon: IconJs },
+    { id: 3, title: "Sass/Scss", icon: IconSass },
+    { id: 4, title: "Nest.Js", icon: IconNextjs },
+    { id: 5, title: "Storybook", icon: IconStory },
+    { id: 6, title: "Nest.Js", icon: IconNextjs },
+    { id: 7, title: "Git", icon: Vector },
+    { id: 8, title: "Storybook", icon: IconStory },
+    { id: 9, title: "Socket.io", icon: IconSocket },
+    { id: 10, title: "Sass/Scss", icon: IconSass },
   ];
 
   return (
@@ -32,12 +32,11 @@ export default function MySkills() {
             className="section-2-top-flexbox d-flex"
             style={{
               flexWrap: "wrap",
-              justifyContent: "space-between",
-              gap: 50,
+              // gap: 50,
             }}
           >
             {mySkillsArray.map((item) => (
-              <SkillsDetail item={item} />
+              <SkillsDetail key={item.id} item={item} />
             ))}
           </div>
         </div>

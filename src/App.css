@@ -1146,3 +1146,8 @@ textarea::selection {
     border: none !important;
   }
 }
+@media only screen and (max-width: 400px) {
+  .section-7-left-input-1 {
+    width: 200px;
+  }
+}

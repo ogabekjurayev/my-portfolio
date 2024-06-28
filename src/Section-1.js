@@ -1,15 +1,15 @@
 import React from "react";
-import Fbook from "./imgs/Button.jpg";
-import Social from "./imgs/Button (1).jpg";
-import Tweeter from "./imgs/twiter.png";
-import SocilIcon from "./imgs/Button (3).jpg";
 import Banner from "./imgs/Banner.png";
+import Facebookicon from "./icons/Facebookicon";
+import Robirt1icon from "./icons/Robirt1icon";
+import Tweeter from "./icons/Tweeter";
+import Robirt2icon from "./icons/Robirt2icon";
 
 export default function Section() {
   return (
     <div>
       <div className="container2">
-        <div className="section-1 d-flex">
+        <div className="sections d-flex">
           <div className="section-1-left-allBox">
             <div className="section-1-left">
               <h1 className="section-1-left-h1">
@@ -18,9 +18,10 @@ export default function Section() {
                   Jurayev Og'a. Frontent{" "}
                 </span>{" "}
                 <span id="Developer">Developer </span> Base In
-                <span className="section-1-left-span">Uzbek.</span>
+                <span className="section-1-left-span"> Uzbek.</span>
               </h1>
             </div>
+
             <div className="section-1-left-center">
               {" "}
               <p className="section-1-left-p">
@@ -30,14 +31,46 @@ export default function Section() {
                 unknown printer took a galley of type and scrambled it to
                 specimen book.
               </p>
-              <div className="section-1-left-bottom">
-                <img className="Fbook" src={Fbook} alt="/" />
-                <img className="Social" src={Social} alt="/" />
-                <img className="Tweeter" src={Tweeter} alt="/" />
-                <img src={SocilIcon} alt="/" />
+              <div className="section-1-bottom-all">
+                <a href="https://www.facebook.com">
+                  <div className="section-1-bottom-icon1 ">
+                    <div className="icon1">
+                      {" "}
+                      <Facebookicon />
+                    </div>
+                  </div>
+                </a>
+                <a href="https://www.reddit.com">
+                  <div className="section-1-bottom-icon2 ">
+                    {" "}
+                    <div className="icon1">
+                      {" "}
+                      <Robirt1icon />
+                    </div>
+                  </div>
+                </a>
+                <a href="https://twitter.com">
+                  <div className="section-1-bottom-icon3 ">
+                    {" "}
+                    <div className="icon1">
+                      {" "}
+                      <Tweeter />
+                    </div>
+                  </div>
+                </a>
+                <a href="https://discord.com">
+                  <div className="section-1-bottom-icon4 ">
+                    {" "}
+                    <div className="icon1">
+                      {" "}
+                      <Robirt2icon />
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
+
           <div className="section-1-right">
             <img className="section-1-right-img" src={Banner} alt="/" />
           </div>

@@ -5,61 +5,48 @@ import IconSass from "./imgs/icon-sass.jpg";
 import IconNextjs from "./imgs/icon-nest.jpg";
 import IconStory from "./imgs/icon-storybook.jpg";
 import IconSocket from "./imgs/icon-socket.jpg";
+import SkillsDetail from "./SkillsDetail";
 
 export default function MySkills() {
+  const mySkillsArray = [
+    { id: 1, title: "Git", icon: Vector },
+    { id: 2, title: "Javascript", icon: IconJs },
+    { id: 3, title: "Sass/Scss", icon: IconSass },
+    { id: 4, title: "Nest.Js", icon: IconNextjs },
+    { id: 5, title: "Storybook", icon: IconStory },
+    { id: 6, title: "Nest.Js", icon: IconNextjs },
+    { id: 7, title: "Git", icon: Vector },
+    { id: 8, title: "Storybook", icon: IconStory },
+    { id: 9, title: "Socket.io", icon: IconSocket },
+    { id: 10, title: "Sass/Scss", icon: IconSass },
+  ];
+
   return (
-    <div>
+    <div id="skills">
       <div className="container3">
         <h2 className="section-2-h2">
           My<span className="section-2-span">Skills</span>
         </h2>
         <div>
-          <div className="section-2-top-flexbox d-flex ">
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={Vector} alt="/" />
-              <h5 className="VectorBox-h5">Git</h5>
-            </div>
-            <div className="section-2-top-flexbox-ScriptBox">
-              <img c src={IconJs} alt="/" />
-              <h5 className="ScriptBox-h5">Javascript</h5>
-            </div>
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={IconSass} alt="/" />
-              <h5 className="VectorBox-h5">Sass/Scss</h5>
-            </div>
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={IconNextjs} alt="/" />
-              <h5 className="VectorBox-h5">Nest.Js</h5>
-            </div>
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={IconStory} alt="/" />
-              <h5 className="VectorBox-h5">Storybook</h5>
-            </div>
-          </div>
-          <div className="section-2-bottom-flexbox d-flex">
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={IconNextjs} alt="/" />
-              <h5 className="VectorBox-h5">Nest.Js</h5>
-            </div>
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={Vector} alt="/" />
-              <h5 className="VectorBox-h5">Git</h5>
-            </div>
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={IconStory} alt="/" />
-              <h5 className="VectorBox-h5">Storybook</h5>
-            </div>
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={IconSocket} alt="/" />
-              <h5 className="VectorBox-h5">Socket.io</h5>
-            </div>
-            <div className="section-2-top-flexbox-VectorBox">
-              <img c src={IconSass} alt="/" />
-              <h5 className="VectorBox-h5">Sass/Scss</h5>
-            </div>
+          <div
+            className="section-2-top-flexbox d-flex"
+            style={{
+              flexWrap: "wrap",
+              // gap: 50,
+            }}
+          >
+            {mySkillsArray.map((item) => (
+              <SkillsDetail key={item.id} item={item} />
+            ))}
           </div>
         </div>
       </div>
     </div>
   );
 }
+
+// TODO
+// 1. array ociw -> [{title: 'Git,...', icon: <IconJs /> }, {...}, {}, {}, {title: 'Javascript'}]
+// 2. arrayni map qiliw {array.map((item) => <div>{item}</div>)}
+// 3. otdelniy komponent ociw
+// 4. kodingni uwa kompanentga utkaziw: div, state, onMouse, ...

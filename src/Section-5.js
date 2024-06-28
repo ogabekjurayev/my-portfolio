@@ -2,11 +2,11 @@ import React from "react";
 import Crypto from "./imgs/crypto.png";
 import Euphoria from "./imgs/Euphoria.png";
 import Blog from "./imgs/Blog.png";
-import GoIcon from "./GoIcons";
+import GoIcon from "./icons/Downloadicon";
 
 export default function MyProjects() {
   return (
-    <div className="bg">
+    <div className="bg" id="project">
       <div className="container6">
         <h2 className="section-5-h2">
           My <span className="section-5-span">Projects</span>
